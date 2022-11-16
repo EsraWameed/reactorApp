@@ -1,0 +1,44 @@
+
+.mepicDiv{
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+
+}
+
+.mePic{
+    border-radius: 50%;
+    height: 300px;
+    /* margin-left: 60px; */
+}
+
+.homez{
+    position: relative;
+    font-size: 35px;
+    /* color: var(--clr); */
+    /* -webkit-text-stroke: 0.3vw #3b3d45; */
+    text-transform: uppercase;
+  }
+  .homez::before{
+    content:attr(data-text);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    color:#29fd53;
+    -webkit-text-stroke: 0vw #3b3d45;
+    border-right: 2px solid #29fd53;
+    overflow: hidden;
+    animation: animate 6s linear infinite
+  }
+  @keyframes animate {
+    0%,10%,100%{
+      width: 0;
+    }
+    70%,90%{
+      width:100%;
+    }
+  }
+
