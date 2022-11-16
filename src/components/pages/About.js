@@ -1,14 +1,12 @@
 import React from 'react';
-import Me from '../../images/me.png'
 export default function About() {
   return (
     
-      <header className="header">
-        <div className='mepicDiv'>
+      <header className="aboutMe">
+        
        
-        <h1 class="homez" data-text="Esra.TechPortfolio">Esra.TechPortfolio</h1>
-        <img className="mePic" src={Me} alt="me smiling."></img>
-        </div>
+        <h1>About meeee</h1>
+        
       </header>
     
   );
