@@ -3,9 +3,14 @@ import '../styles/footer.css';
 
 function Footer() {
     return (
-      <header className="footer">
-        <h1>Footer</h1>
-      </header>
+      <footer className="footer">
+        <ul className="footerUl">
+        <i className="fa-brands fa-linkedin footerBands"></i>
+        <i className="fa-brands fa-github-alt footerBands"></i>
+        <i className="fa-brands fa-stack-overflow footerBands"></i>
+        <li className='footerClass'>Made with lots of <i class="fa-solid fa-heart-pulse"></i> by Esra</li>
+        </ul>
+      </footer>
     );
   }
   

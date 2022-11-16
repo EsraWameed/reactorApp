@@ -1,5 +1,28 @@
-.footer{
-   margin-top: 45%;
-   color: aliceblue;
-   border: 3px solid red;
+
+
+footer {
+   display: block;
+   position: fixed;
+   height: 100px;
+   bottom: 0;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.footerClass{
+   list-style: none;
+   margin-left: 30px;
+}
+
+.footerUl{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+}
+
+.footerBands{
+   margin-right: 35px;
+   font-size: 80px;
 }

@@ -4,6 +4,9 @@
   background-image: './images/logo.png';
 }
 
+.logoWelcome{
+  margin-right: 800px;
+}
 
 .mepicDiv {
   height: 320px;
