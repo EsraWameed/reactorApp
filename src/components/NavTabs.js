@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../images/logo.png'
 
 
 function NavTabs({ currentPage, handlePageChange }) {
@@ -10,7 +11,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('Welcome')}
           className={currentPage === 'Welcome' ? 'nav-link active' : 'nav-link'}
         >
-          Welcome
+    
+          <img className="logo" src={logo} alt="my brand."></img>
         </a>
       </li>
       <li className="nav-item">

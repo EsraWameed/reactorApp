@@ -1,52 +1,66 @@
+.logo {
+  width:50px;
+  height: 35px;
+  background-image: './images/logo.png';
+}
 
-.mepicDiv{
-    height: 320px;
-    display: flex;
-    flex-wrap: wrap;
-    color: aliceblue;
+
+.mepicDiv {
+  height: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  color: aliceblue;
 
 }
 
-.mePic{
-    border-radius: 40%;
-    height: 300px;
-    margin-left: 40px;
-    margin-top: 20PX;
-    border: solid 3px #e0d3d8;
-    box-shadow: 0 0 100px rgb(252, 249, 251);
-   
+.mePic {
+  border-radius: 40%;
+  height: 300px;
+  margin-left: 40px;
+  margin-top: 20PX;
+  border: solid 3px #e0d3d8;
+  box-shadow: 0 0 100px rgb(252, 249, 251);
+
 }
-.mePic:hover{
+
+.mePic:hover {
   box-shadow: 0 0 100px rgb(170, 29, 107);
   border: solid 3px #e0d3d8;
   height: 320px
 }
 
-.homez{
-    position: relative;
-    font-size: 35px;
-    /* color: var(--clr); */
-    -webkit-text-stroke: 0.3vw #3b3d45;
-    text-transform: uppercase;
+.homez {
+  position: relative;
+  font-size: 35px;
+  /* color: var(--clr); */
+  -webkit-text-stroke: 0.3vw #3b3d45;
+  text-transform: uppercase;
+}
+
+.homez::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
+  color: #c54c82;
+  -webkit-text-stroke: 0vw #3b3d45;
+  border-right: 2px solid #29fd53;
+  overflow: hidden;
+  animation: animate 6s linear infinite
+}
+
+@keyframes animate {
+
+  0%,
+  10%,
+  100% {
+    width: 0;
   }
-  .homez::before{
-    content:attr(data-text);
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    /* height: 100%; */
-    color:#c54c82;
-    -webkit-text-stroke: 0vw #3b3d45;
-    border-right: 2px solid #29fd53;
-    overflow: hidden;
-    animation: animate 6s linear infinite 
+
+  70%,
+  90% {
+    width: 390px;
   }
-  @keyframes animate {
-    0%,10%,100%{
-      width: 0;
-    }
-    70%,90%{
-      width:390px;
-    }
-  }
+}
