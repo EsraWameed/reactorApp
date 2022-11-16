@@ -6,22 +6,15 @@ import '../styles/navtab.css';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
-       <li className="nav-item logoWelcome">
-        <a
-          href="#welcome"
-          onClick={() => handlePageChange('Welcome')}
-          className={currentPage === 'Welcome' ? 'nav-link active' : 'nav-link'}
-        >
-    
-          <img className="logo" src={logo} alt="my brand."></img>
-        </a>
-      </li>
+      <img className="logo" src={logo} alt="my brand."></img>
+       
       <li className="nav-item">
         <a
           href="#About"
           onClick={() => handlePageChange('About')}
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
+          <i class="fa-regular fa-user-hair-long"></i>
           About Me
         </a>
       </li>

@@ -13,7 +13,6 @@
   display: flex;
   flex-wrap: wrap;
   color: aliceblue;
-
 }
 
 .mePic {
@@ -23,7 +22,6 @@
   margin-top: 20PX;
   border: solid 3px #e0d3d8;
   box-shadow: 0 0 100px rgb(252, 249, 251);
-
 }
 
 .mePic:hover {
