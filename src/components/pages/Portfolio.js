@@ -1,24 +1,50 @@
+import {useState, useEffect} from 'react';
 import React from 'react';
+import tea from '../../images/teaaa.png'
+import motivation from '../../images/deployed2.png'
+import weather from '../../images/weather.png'
+import '../../styles/portfolio.css';
+const Slideshow = ({imgs}) => {
+  const [index, setIndex]= useState(0)
+  useEffect(()=>{
+    setIndex(0)
+  }, [])
+//tests if we are at the end of the list
+  const next =() => {
+    if (index ===imgs.length -1){
+      setIndex(0)
+    }else{
+      setIndex(index+1)
+    }
+  }
+  const prev =() => {
+    if (index ===0){
+      setIndex(imgs.length -1)
+    }else{
+      setIndex(index-1)
+    }
+  }
 
+  return <div className="slideshow">
+    <img className='mainImg' alt=""src={imgs[index]}/>
+    <div className='actions'>
+<button onClick={prev}><i class="fa-solid fa-backward"></i></button>
+<button onClick={next}><i class="fa-sharp fa-solid fa-forward"></i></button>
+    </div>
+  </div>
+}
 export default function Portfolio() {
+  //create an array of slides as json objects
+  
+   
   return (
     <div>
       <h1>Portfolio</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+        <Slideshow imgs={[
+          tea, motivation, weather
+        ]}
+        />
     </div>
+
   );
 }
