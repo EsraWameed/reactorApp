@@ -8,7 +8,7 @@ function Footer() {
         <i className="fa-brands fa-linkedin footerBands"></i>
         <i className="fa-brands fa-github-alt footerBands"></i>
         <i className="fa-brands fa-stack-overflow footerBands"></i>
-        <li className='footerClass'>Made with lots of <i class="fa-solid fa-heart-pulse"></i> by Esra</li>
+        <li className='footerClass'>Made with lots of <i className="fa-solid fa-heart-pulse"></i> by Esra</li>
         </ul>
       </footer>
     );
