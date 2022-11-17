@@ -5,10 +5,10 @@ function Contact() {
 
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
+  const [err, setErr] = useState("");
 
   const handleInputChange = (event) => {
-    const { target } = event;
+    const {target} = event;
     const inputType = target.name;
     const inputValue = target.value;
 
@@ -23,7 +23,7 @@ function Contact() {
     event.preventDefault();
 
     if (!validateEmail(email) || !name) {
-      setErrorMessage("Please enter a valid email");
+      setErr("Please enter a valid email");
 
       return;
     }
@@ -55,9 +55,9 @@ function Contact() {
           Submit
         </button>
       </form>
-      {errorMessage && (
+      {err && (
         <div>
-          <p>{errorMessage}</p>
+          <p>{err}</p>
         </div>
       )}
     </div>
