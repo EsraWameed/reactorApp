@@ -1,3 +1,15 @@
 .mainImg{
     width: 400px;
 }
+
+.projectsContainer{
+    display: flex;
+    flex-wrap: wrap;
+   height: 1300px;
+}
+
+.card{
+    margin: 10px;
+    padding: 10px;
+    flex: 40%;
+}
