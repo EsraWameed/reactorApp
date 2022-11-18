@@ -1,11 +1,16 @@
 .mainImg{
+    display: flex;
+    flex-wrap: wrap;
     width: 400px;
+    
+    
 }
 
 .projectsContainer{
     display: flex;
     flex-wrap: wrap;
    height: 1300px;
+  
 }
 
 .card{
@@ -15,9 +20,27 @@
 }
 
 .projectPic{
-    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    /* margin: 20px; */
 }
 
 .portfoliosContainer{
     display: flex;
+}
+
+.demodeply{
+    background: rgb(62, 97, 235);
+    margin: 10px;
+   padding:10px;
+   border-radius: 20px;
+   color: white;
+   text-decoration: none;
+}
+
+.parent{
+    display: flex;
+  margin-left: 20px;
+  flex-wrap: wrap;
 }

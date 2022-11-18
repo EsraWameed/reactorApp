@@ -17,12 +17,12 @@ export default function Portfolio(props) {
           <div className="">
 
             <p className="">{project.projectSummary}</p>
-            <a href={project.repo} className="">
-              View Github
+            <a href={project.repo} className="demodeply">
+             Github
             </a>
             {project.deployDemo ? (
-              <a href={project.deployDemo} className="">
-                View Site
+              <a href={project.deployDemo} className="demodeply">
+                Site-Demo
               </a>
             ) : null}
           </div>
