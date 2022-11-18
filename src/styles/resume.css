@@ -1,0 +1,15 @@
+.esraResume{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+
+.resumeButton{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    text-decoration: none;
+    
+}

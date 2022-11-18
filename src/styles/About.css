@@ -17,6 +17,8 @@
 }
 
 .mePic {
+  display: flex;
+  flex-wrap: wrap;
   border-radius: 40%;
   height: 300px;
   margin-left: 40px;
@@ -26,6 +28,7 @@
 }
 
 .mePic:hover {
+  
   box-shadow: 0 0 100px rgb(170, 29, 107);
   border: solid 3px #e0d3d8;
   height: 320px
@@ -66,3 +69,8 @@
     width: 390px;
   }
 }
+
+.centering{
+  height: 650px;
+}
+

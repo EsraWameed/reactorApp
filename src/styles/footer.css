@@ -16,7 +16,7 @@ footer {
 }
 
 .footerUl{
-   display: block;
+   display: flex;
    margin-left: auto;
    margin-right: auto;
    width: 40%;
