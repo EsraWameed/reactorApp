@@ -3,16 +3,19 @@ import '../styles/portfolio.css';
 
 export default function Portfolio(props) {
   return (
-    <div>
+    <div className="parent">
+      
       {props.projects.map((project) => (
+        
         <div className="" key={project.id}>
+             <h3 className="">{project.title}</h3>
           <img
             src={project.projectImg}
-            className=""
+            className="projectPic"
             alt="..."
           />
           <div className="">
-            <h5 className="">{project.title}</h5>
+
             <p className="">{project.projectSummary}</p>
             <a href={project.repo} className="">
               View Github
