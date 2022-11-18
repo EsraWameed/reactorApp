@@ -1,7 +1,8 @@
 .logo {
-  width:50px;
-  height: 35px;
+  width:200px;
+  height: 127px;
   background-image: './images/logo.png';
+  border-radius: 60px;
 }
 
 .logoWelcome{
@@ -32,7 +33,7 @@
 
 .homez {
   position: relative;
-  font-size: 35px;
+  font-size: 80x;
   /* color: var(--clr); */
   -webkit-text-stroke: 0.3vw #3b3d45;
   text-transform: uppercase;

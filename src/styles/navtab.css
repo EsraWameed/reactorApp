@@ -1,9 +1,10 @@
 .nav-item{
-    border-radius: 10%;
     margin: 5px;
-    background: #DA627D
+    background: #DA627D;
+    border-radius: 60px;
 }
 
 
-
-
+ul.nav.nav-tabs{
+    background: rgb(81, 18, 11);
+}
