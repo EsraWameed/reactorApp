@@ -1,0 +1,16 @@
+.formContainer{
+display: flex;
+   width: 400px;
+   flex-wrap: wrap;
+   margin: auto;
+  margin-top: 80px;
+  justify-content: center;
+  border: 20px solid rgb(0, 0, 0);
+  border-radius: 80px;
+}
+
+.formTwo{
+    padding: 35px;
+    background: white;
+    border-radius: 48px;
+}

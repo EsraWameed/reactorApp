@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helper.js";
-
+import '../../styles/contact.css';
 function Contact() {
 
   const [email, setEmail] = useState("");
@@ -35,10 +35,10 @@ function Contact() {
   };
 
   return (
-    <div>
-      <form>
+    <div className="formContainer">
+      <form class="formTwo">
         <input
-        className=""
+        className="form-control"
           value={name}
           name="name"
           onChange={handleInputChange}
@@ -48,7 +48,7 @@ function Contact() {
          
         />
         <input
-        className=""
+          className="form-control"
           value={email}
           name="email"
           onChange={handleInputChange}
@@ -58,7 +58,7 @@ function Contact() {
           
         />
 <textarea
-          className="message"
+            className="form-control"
           value={message}
           name="message"
           onChange={handleInputChange}
@@ -66,7 +66,7 @@ function Contact() {
           type="text"
           placeholder="Message"
         />
-        <button type="button" onClick={handleFormSubmit}>
+        <button type="button" className="btn btn-primary" onClick={handleFormSubmit}>
           Submit
         </button>
       </form>
