@@ -15,7 +15,7 @@ A tech portfolio created using React.js to showcase my web developement work to 
 
 
 ## Deployement
-[click here](https://esrawameed.github.io/techPortfolio/) To visit my portfolio.
+[click here](https://esrawameed.github.io/reactorApp/) To visit my portfolio.
 
 ## Screanshot of APP
 ![Alt text](./src/images/readme1.png "Final Look")
