@@ -12,7 +12,7 @@ const projects = [
   {
     id: 1,
     title: "ApolloDAE",
-    projectSummary: "Collaborated with a team to create a full stack E-commerce application. This application utilizes React and Tailwind for the front end, and MongoDB, node.js, and GraphQL for the back end. Users can log in, search for items by search bar or category, add/remove from the cart, and checkout. Admin can perform all the CRUD operations on products.",
+    projectSummary: "Worked with a team to create a full stack E-commerce application. This application utilizes React and Tailwind for the front end, and MongoDB, node.js, and GraphQL for the back end. Users can log in, search for items by search bar or category, add/remove from the cart, and checkout. Admin can perform all the CRUD operations on products.",
     projectImg: Apollodae,
     repo: "https://github.com/abedhasan79/ApolloDAE",
     deployDemo: "https://apollodae001.herokuapp.com/",
