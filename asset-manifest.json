@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/reactorApp/static/css/main.7dcd9b83.css",
-    "main.js": "/reactorApp/static/js/main.5559895e.js",
+    "main.js": "/reactorApp/static/js/main.02cababc.js",
     "static/media/teaaa.png": "/reactorApp/static/media/teaaa.acd31c80a0ad7fc9574a.png",
+    "static/media/desktopView.jpg": "/reactorApp/static/media/desktopView.67f37c3761cc4bb323d7.jpg",
     "static/media/me.png": "/reactorApp/static/media/me.e31081eea1588dc57a6b.png",
     "static/media/esraResume.png": "/reactorApp/static/media/esraResume.74cb4570a0663c6cab6f.png",
     "static/media/deployed2.png": "/reactorApp/static/media/deployed2.1d74793123f5e71c3ba8.png",
@@ -14,10 +15,10 @@
     "static/media/logo.png": "/reactorApp/static/media/logo.3667fc43a6a28b1c715f.png",
     "index.html": "/reactorApp/index.html",
     "main.7dcd9b83.css.map": "/reactorApp/static/css/main.7dcd9b83.css.map",
-    "main.5559895e.js.map": "/reactorApp/static/js/main.5559895e.js.map"
+    "main.02cababc.js.map": "/reactorApp/static/js/main.02cababc.js.map"
   },
   "entrypoints": [
     "static/css/main.7dcd9b83.css",
-    "static/js/main.5559895e.js"
+    "static/js/main.02cababc.js"
   ]
 }
